@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head> 
+		<meta charsert="utf-8">
+		<title> Fake Blog </title>
+		<meta name="description" content="The fake blog is about what I've learned so far in Coding Dojo.">
+	</head>
+	<body>
+		<h1>Lorem Ipsum</h1>
+		<h3>"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</h3>
+		<h5><span id="quote">"There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain..."</span></h5>
+		<div id="main-content">
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent dictum purus neque, quis vehicula nibh cursus quis. Aliquam euismod elit et molestie volutpat. Nullam sem arcu, porttitor rhoncus nibh eget, accumsan egestas nunc. Ut cursus odio a nibh maximus tristique. Quisque a bibendum sapien. Proin finibus massa eget venenatis blandit. Ut in erat sed justo gravida consectetur eget ut nisi. Nulla facilisi. Sed euismod arcu ligula. Praesent congue tincidunt magna eu lobortis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac facilisis dui, et sagittis diam. Etiam et nibh dignissim, luctus ipsum et, tempor mauris. Quisque sed elit ligula. Vivamus sagittis neque quis nisl eleifend hendrerit. </p>
+			<p>Nulla malesuada urna quis neque fringilla volutpat. Aenean in imperdiet erat. Curabitur ac urna non ante egestas tempor in eu lorem. Fusce nec aliquet ipsum, sed suscipit erat. Sed ligula libero, finibus eu faucibus feugiat, sodales et orci. Aenean vel purus malesuada, dictum lacus eget, tempor sapien. Phasellus et sem eu elit mattis consectetur a eu erat. Vivamus diam nisi, auctor porttitor cursus lacinia, finibus at ipsum. Proin at felis ut mauris ultrices congue. Aliquam in mollis urna. Morbi vel mauris ut turpis lacinia accumsan ac at enim. Cras dapibus massa quis sagittis molestie. Praesent pharetra felis nec dignissim molestie. Nulla facilisi. Quisque faucibus imperdiet justo, ut molestie nunc pulvinar ac. Duis dignissim leo ut lacus iaculis, ac dignissim dui tincidunt.</p>
+			<p>Nunc quis fermentum ligula, ac pellentesque lorem. Proin vitae eleifend nisl. Praesent et erat magna. Suspendisse iaculis hendrerit nunc. Cras eu orci luctus leo auctor mattis. Duis sed libero vel massa dignissim sollicitudin quis vitae ligula. Donec accumsan nulla in quam molestie congue. Aliquam tellus libero, luctus sed condimentum id, bibendum in turpis. Vestibulum tellus ex, bibendum at condimentum vitae, porttitor sed magna. Vestibulum mi nisl, rutrum non leo at, elementum hendrerit magna. Suspendisse rhoncus, diam ac hendrerit malesuada, erat nibh finibus nisl, eu scelerisque felis sapien a purus. Etiam vitae erat vitae erat porttitor tincidunt sit amet sit amet risus. Donec vel pretium nulla, eu sollicitudin eros.</p>
+			<p>Cras nec ligula diam. Fusce ac ullamcorper quam. Vivamus porttitor lectus a nisi scelerisque interdum. Aenean dictum condimentum gravida. Curabitur vel elementum magna, ut maximus ligula. Nullam varius tempor augue, vitae porta urna aliquet ac. Donec in eleifend magna. Quisque aliquet est et varius molestie. Sed nec nulla sollicitudin, consectetur turpis sed, tempor mauris. Nullam scelerisque laoreet eros at viverra. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In tristique, leo ullamcorper gravida tincidunt, enim orci porta lorem, in consequat nibh tortor ac nunc. Praesent pulvinar leo in gravida elementum. Donec cursus eleifend tincidunt.</p>
+			<p>Aenean non tellus scelerisque, lobortis diam in, efficitur est. Nam posuere condimentum nunc at pharetra. Ut iaculis lacus nec augue interdum, quis aliquam diam cursus. In diam dui, pulvinar eget sodales non, cursus in libero. Proin orci est, ultrices at purus eget, consequat interdum diam. Fusce ut pharetra odio. Nulla efficitur mi erat, id tincidunt tortor placerat sed. Duis mollis ut dolor eget rutrum. Donec vitae rutrum massa.</p>
+		</div>
+		<table>
+			<tr>
+				<th>Lorem ipsum 1</th>
+				<th>Lorem ipsum 2</th>
+				<th>Lorem ipsum 3</th>
+				<th>Lorem ipsum 4</th>
+			</tr>
+			<tr>
+				<td>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</td>
+				<td>Aliquam consectetur turpis at tempor maximus.</td>
+				<td>Nulla ut nunc laoreet, fringilla augue id, iaculis tellus. </td>
+				<td>Cras vitae arcu ac mi lacinia convallis. 
+					<ul>
+						<li>Suspendisse id augue quis mauris euismod sagittis non eget purus. </li>
+						<li>Aenean finibus dui a magna viverra, eget ultricies ante sollicitudin. </li>
+						<li>Fusce pellentesque massa in auctor porttitor.</li>
+						<li> <a href="http://www.lipsum.com/feed/html"> </a> Lorem Ipsum page </li>
+					</ul>
+				</td>
+			</tr>
+		</table>
+	</body>
+	<form action="process.php" method="post">
+		<h3>Fake Survey</h3>
+		<label>
+			First Name: <input type="text" name="first_name">
+		</label>
+		<label>
+			Last Name: <input type="text" name="last_name">
+		</label>
+		<label>
+			Age <input type="number" name="age">
+		</label>
+		<p> Select Your Gender:</p>
+		<select name="gender">
+			<option value="male">Male</option>
+			<option value="female">Female</option>
+		</select>
+		<p> Select Your Blood Group</p>
+		<label>
+			<input type="radio" name="blood_type" value="A">A
+		</label>
+		<label>
+			<input type="radio" name="blood_type" value="B">B
+		</label>
+		<label>
+			<input type="radio" name="blood_type" value="AB">AB
+		</label>
+		<label>
+			<input type="radio" name="blood_type" value="O">O
+		</label>
+		<p> Select What You Own:</p>
+		<label>
+			<input type="checkbox" name="question"> Bird
+		</label>
+		<label>
+			<input type="checkbox" name="question"> Fish
+		</label>
+		<label>
+			<input type="checkbox" name="question"> Dog
+		</label>
+		<label>
+			<input type="checkbox" name="question"> Cat
+		</label>
+		<label>
+			<input type="checkbox" name="question"> Rabit 
+		</label>
+		<p> Please Enter Your Password</p>
+		<label>
+			password: <input type="password" name="password">
+		</label>
+		<input type="submit" value="Clik Here to submit"
+	</form>
